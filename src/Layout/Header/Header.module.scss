@@ -1,0 +1,35 @@
+header {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 80;
+  padding: 10px 20px;
+  .nav {
+    display: flex;
+    align-items: center;
+    .item {
+      text-decoration: none;
+      min-width: 45px;
+      margin-left: 20px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    .item:first-child {
+      margin-left: 0px;
+    }
+    .bag {
+      min-width: 30px;
+      position: relative;
+    }
+  }
+  .count{
+   position:absolute;
+   top: 60%;
+   left: 50%;
+   transform:translateX(-50%) translateY(-50%);
+   font-size: 13px;
+
+  }
+}
+}

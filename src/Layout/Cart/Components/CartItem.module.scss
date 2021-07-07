@@ -1,0 +1,18 @@
+.cartContain{
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    .image{
+      width: 70px;
+      object-fit:cover;
+    }
+    .cartItem{
+     display: flex;
+     flex-direction: column;
+     padding-left: 20px;
+     span{
+       width: 70%;
+     }
+    }
+}

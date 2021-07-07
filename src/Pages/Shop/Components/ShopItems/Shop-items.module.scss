@@ -1,0 +1,13 @@
+.container{
+    .title{
+        text-transform: uppercase;
+    }
+    .listItem{
+        display: flex;
+    
+        min-height: 350px;
+   
+       gap: 20px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,9 @@
+@use"src/sass/abstracts/mixins";
+
+.container{
+    flex: 1 1;
+    @include mixins.flexCenter;
+    background-color: hotpink;
+    height: 100vh;
+ 
+}

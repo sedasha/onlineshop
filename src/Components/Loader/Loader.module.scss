@@ -1,0 +1,10 @@
+@use"../../sass/abstracts/animations";
+
+.container{
+    width: 45px;
+    height: 45px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    border-bottom: 2px solid green;
+    animation: circle 1s infinite ease-in-out;
+}
