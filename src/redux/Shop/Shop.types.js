@@ -1,6 +1,0 @@
-const ShopTypes ={
-    ADD_TO_FAVORITES: "shop/ADD_TO_FAVORITES",
-    DECREASE_FAVORITE_ITEM: "shop/DECREASE_FAVORITE_ITEM",
-    REMOVE_FAVORITE_ITEM: "shop/REMOVE_FAVORITE_ITEM"
-}
-export default ShopTypes

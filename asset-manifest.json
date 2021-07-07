@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/onlineshop/static/css/main.f4490ef9.chunk.css",
+    "main.js": "/onlineshop/static/js/main.ae390b95.chunk.js",
+    "main.js.map": "/onlineshop/static/js/main.ae390b95.chunk.js.map",
+    "runtime-main.js": "/onlineshop/static/js/runtime-main.81fcddde.js",
+    "runtime-main.js.map": "/onlineshop/static/js/runtime-main.81fcddde.js.map",
+    "static/js/2.3057331e.chunk.js": "/onlineshop/static/js/2.3057331e.chunk.js",
+    "static/js/2.3057331e.chunk.js.map": "/onlineshop/static/js/2.3057331e.chunk.js.map",
+    "static/js/3.b9abb2b9.chunk.js": "/onlineshop/static/js/3.b9abb2b9.chunk.js",
+    "static/js/3.b9abb2b9.chunk.js.map": "/onlineshop/static/js/3.b9abb2b9.chunk.js.map",
+    "index.html": "/onlineshop/index.html",
+    "static/css/main.f4490ef9.chunk.css.map": "/onlineshop/static/css/main.f4490ef9.chunk.css.map",
+    "static/js/2.3057331e.chunk.js.LICENSE.txt": "/onlineshop/static/js/2.3057331e.chunk.js.LICENSE.txt",
+    "static/media/crown.3c6d71b3.svg": "/onlineshop/static/media/crown.3c6d71b3.svg",
+    "static/media/shopping-bag.a688874f.svg": "/onlineshop/static/media/shopping-bag.a688874f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81fcddde.js",
+    "static/js/2.3057331e.chunk.js",
+    "static/css/main.f4490ef9.chunk.css",
+    "static/js/main.ae390b95.chunk.js"
+  ]
+}
