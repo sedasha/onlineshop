@@ -16,8 +16,8 @@ function App(props) {
       <Header />
       <main>
         <Switch>
-        <Redirect exact from = "/" to ='/home' />
-          <Route path='/home'>
+        <Redirect exact from = "/" to ='/onlineshop' />
+          <Route path='/onlineshop'>
             <Home />
           </Route>
           <Route path='/shop'>

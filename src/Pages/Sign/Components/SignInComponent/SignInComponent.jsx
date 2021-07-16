@@ -6,20 +6,16 @@ import axios from "axios";
 import { useHistory } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { UserSignInAsync } from "../../../../redux/Account/Account.action";
+import { useInput } from "../../../../CustomHook/useInput.hook";
 
 
 const SignInComponents = (props) => {
-    const [inputValue, setValue] = useState({})
+  
     const [data, setData] = useState({})
     const { user, UserSignInAsync } = props
-
-    const getValue = (e) => {
-        const { value, name } = e.target
-        setValue({ ...inputValue, [name]: value })
-    }
-
+    const {inputValue, getValue} = useInput()
+   
     const MainPage = useHistory()
-
     const SignIn = async (e) => {
         e.preventDefault()
         await UserSignInAsync(inputValue)

@@ -23,7 +23,7 @@ const Header = (props) => {
   const [cart, setCart] = useToggle();
   const history = useHistory()
   const handleClick = () => {
-    history.push("/home")
+    history.push("/onlineshop")
   }
   const { user, favorites } = props
   const dispatch = useDispatch()
@@ -41,7 +41,6 @@ const Header = (props) => {
         <nav className={styles.nav}>
           <Link to="/shop" className={styles.item}>Shop</Link>
           <Link to="/contact" className={styles.item}>Contact</Link>
-          {/* <Link to="/sign" </Link> */}
           <span className={styles.item} onClick={SignInSignOutClick}>{user ? "Sign Out" : "Sign In"} </span>
           <span className={styleBag} onClick={setCart}><ShopBag />
 

@@ -3,14 +3,12 @@ import ButtonComponent from '../../../../Components/ButtonComponent/ButtonCompon
 import InputComponent from '../../../../Components/InputComponent/InputComponent';
 import styles from '../SignInComponent/SignInComponent.module.scss'
 import axios from 'axios';
+import {useInput} from '../../../../../src/CustomHook/useInput.hook'
 
 
 function SignUpComponent() {
-    const [inputValue, setValue] = useState({})
-    const getValue = (e) => {
-        const { value, name } = e.target
-        setValue({ ...inputValue, [name]: value })
-    }
+    const {inputValue, getValue}= useInput()
+    
     const signUp= async (e)=>{
         e.preventDefault()
         try{

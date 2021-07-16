@@ -9,5 +9,6 @@ export const authPersistConfig = {
 export const shopPersistConfig = {
     key: "Shop",
     storage: localStorage,
-    whitelist: ['favorite']
+    whitelist: ['favorite', 'data' ]
 }
+
